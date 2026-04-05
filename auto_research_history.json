@@ -1,0 +1,2778 @@
+[
+  {
+    "timestamp": "2026-04-02T22:01:05.797792",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "qwen/qwen2.5-coder-7b-instruct",
+        "provider": null,
+        "score": 0.43,
+        "recommendation": "Considere usar qwen/qwen2.5-coder-7b-instruct como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus-preview:free",
+        "provider": null,
+        "score": 6.35,
+        "recommendation": "Remover qwen/qwen3.6-plus-preview:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 352,
+        "recommendation": "352 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "timeout",
+        "count": 4,
+        "recommendation": "Detectados 4 timeouts - aumentar timeout ou mudar provider"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 19,
+        "recommendation": "Detectados 19 erros - verificar logs"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-02T22:07:04.371049",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.17,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "hf:zai-org/GLM-5",
+        "provider": null,
+        "score": 7.23,
+        "recommendation": "Remover hf:zai-org/GLM-5 da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 352,
+        "recommendation": "352 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "timeout",
+        "count": 9,
+        "recommendation": "Detectados 9 timeouts - aumentar timeout ou mudar provider"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 12,
+        "recommendation": "Detectados 12 erros - verificar logs"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-02T22:30:34.175412",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 352,
+        "recommendation": "352 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-02T23:00:00.923033",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 352,
+        "recommendation": "352 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T00:00:11.128308",
+    "total_recommendations": 2,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "config",
+        "type": "empty_fallback",
+        "recommendation": "\u26a0\ufe0f Fallback chain vazia - adicionar providers de backup"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T01:00:02.738104",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 352,
+        "recommendation": "352 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "empty_fallback",
+        "recommendation": "\u26a0\ufe0f Fallback chain vazia - adicionar providers de backup"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T02:00:01.147287",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 351,
+        "recommendation": "351 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "empty_fallback",
+        "recommendation": "\u26a0\ufe0f Fallback chain vazia - adicionar providers de backup"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T03:00:01.370465",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "empty_fallback",
+        "recommendation": "\u26a0\ufe0f Fallback chain vazia - adicionar providers de backup"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T04:00:01.129813",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "empty_fallback",
+        "recommendation": "\u26a0\ufe0f Fallback chain vazia - adicionar providers de backup"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T05:00:00.927544",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "empty_fallback",
+        "recommendation": "\u26a0\ufe0f Fallback chain vazia - adicionar providers de backup"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T06:00:01.002603",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "empty_fallback",
+        "recommendation": "\u26a0\ufe0f Fallback chain vazia - adicionar providers de backup"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T07:00:01.159138",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "empty_fallback",
+        "recommendation": "\u26a0\ufe0f Fallback chain vazia - adicionar providers de backup"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T08:00:01.058004",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "empty_fallback",
+        "recommendation": "\u26a0\ufe0f Fallback chain vazia - adicionar providers de backup"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T09:00:00.881368",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "empty_fallback",
+        "recommendation": "\u26a0\ufe0f Fallback chain vazia - adicionar providers de backup"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T10:00:01.855944",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "empty_fallback",
+        "recommendation": "\u26a0\ufe0f Fallback chain vazia - adicionar providers de backup"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T11:00:00.941050",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "empty_fallback",
+        "recommendation": "\u26a0\ufe0f Fallback chain vazia - adicionar providers de backup"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T12:00:00.930902",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "empty_fallback",
+        "recommendation": "\u26a0\ufe0f Fallback chain vazia - adicionar providers de backup"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T13:00:01.781319",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T14:00:01.515303",
+    "total_recommendations": 3,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T15:00:01.590164",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "timeout",
+        "count": 16,
+        "recommendation": "Detectados 16 timeouts - aumentar timeout ou mudar provider"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T16:00:01.468227",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T17:00:00.857854",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T18:00:00.972488",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T19:00:01.533873",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T20:00:01.249723",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T21:00:00.950715",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T22:00:01.512213",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-03T23:00:01.201722",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T00:00:01.793608",
+    "total_recommendations": 5,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 86,
+        "recommendation": "Detectados 86 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T01:00:00.920305",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 87,
+        "recommendation": "Detectados 87 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 14,
+        "recommendation": "Detectados 14 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T02:00:01.994186",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 116,
+        "recommendation": "Detectados 116 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 18,
+        "recommendation": "Detectados 18 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T03:00:01.893693",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 121,
+        "recommendation": "Detectados 121 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 21,
+        "recommendation": "Detectados 21 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T04:00:01.862327",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "llama-3.1-8b-instant",
+        "provider": null,
+        "score": 0.16,
+        "recommendation": "Considere usar llama-3.1-8b-instant como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 32,
+        "recommendation": "Detectados 32 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 40,
+        "recommendation": "Detectados 40 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T05:00:02.934182",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.09,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 9.12,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 32,
+        "recommendation": "Detectados 32 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 60,
+        "recommendation": "Detectados 60 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "88%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T06:00:01.012029",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.09,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 9.12,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 25,
+        "recommendation": "Detectados 25 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 58,
+        "recommendation": "Detectados 58 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T07:00:00.932393",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.09,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 9.12,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 87,
+        "recommendation": "Detectados 87 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 122,
+        "recommendation": "Detectados 122 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T08:00:01.896136",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.09,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 9.12,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 91,
+        "recommendation": "Detectados 91 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 122,
+        "recommendation": "Detectados 122 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T09:00:05.503607",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.09,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 9.12,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 92,
+        "recommendation": "Detectados 92 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 128,
+        "recommendation": "Detectados 128 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "89%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T10:00:01.599030",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.17,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 5.04,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 44,
+        "recommendation": "Detectados 44 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 75,
+        "recommendation": "Detectados 75 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "84%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T11:00:00.856143",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.0,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 52,
+        "recommendation": "Detectados 52 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 85,
+        "recommendation": "Detectados 85 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T12:00:00.836033",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.0,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 83,
+        "recommendation": "Detectados 83 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 95,
+        "recommendation": "Detectados 95 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T13:00:01.368639",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.0,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 90,
+        "recommendation": "Detectados 90 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 25,
+        "recommendation": "Detectados 25 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T14:00:00.569557",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 4.3,
+        "recommendation": "Considere usar qwen/qwen3.6-plus:free como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 5.88,
+        "recommendation": "Remover hf:MiniMaxAI/MiniMax-M2.5 da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "timeout",
+        "count": 4,
+        "recommendation": "Detectados 4 timeouts - aumentar timeout ou mudar provider"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T15:00:01.093140",
+    "total_recommendations": 5,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 1.96,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "system",
+        "type": "gateway_down",
+        "recommendation": "Gateway n\u00e3o est\u00e1 a correr - reiniciar"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T16:00:00.790626",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.01,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 5.16,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 12,
+        "recommendation": "Detectados 12 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T17:00:00.816909",
+    "total_recommendations": 5,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.05,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "timeout",
+        "count": 7,
+        "recommendation": "Detectados 7 timeouts - aumentar timeout ou mudar provider"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T18:00:01.482657",
+    "total_recommendations": 5,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.05,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 12,
+        "recommendation": "Detectados 12 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T19:00:00.658834",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 1.99,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T20:00:00.883741",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 1.99,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T21:00:00.999732",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 1.99,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 44,
+        "recommendation": "Detectados 44 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "timeout",
+        "count": 5,
+        "recommendation": "Detectados 5 timeouts - aumentar timeout ou mudar provider"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 21,
+        "recommendation": "Detectados 21 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T22:00:01.655584",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 1.99,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 52,
+        "recommendation": "Detectados 52 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 16,
+        "recommendation": "Detectados 16 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-04T23:00:01.505140",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 1.99,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 18,
+        "recommendation": "Detectados 18 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 72,
+        "recommendation": "Detectados 72 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T00:00:01.138335",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 1.99,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 8,
+        "recommendation": "Detectados 8 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 40,
+        "recommendation": "Detectados 40 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "81%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T01:00:01.220867",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 3.09,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 6.01,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 15,
+        "recommendation": "Detectados 15 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 66,
+        "recommendation": "Detectados 66 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T02:00:01.415142",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 3.09,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 6.01,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 350,
+        "recommendation": "350 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 21,
+        "recommendation": "Detectados 21 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 63,
+        "recommendation": "Detectados 63 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T03:00:00.739843",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 3.09,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 6.01,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 28,
+        "recommendation": "Detectados 28 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 88,
+        "recommendation": "Detectados 88 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T04:00:01.676960",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 3.09,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 6.01,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 30,
+        "recommendation": "Detectados 30 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 93,
+        "recommendation": "Detectados 93 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T05:00:01.052227",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 3.09,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 6.01,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 21,
+        "recommendation": "Detectados 21 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 64,
+        "recommendation": "Detectados 64 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T06:00:00.610418",
+    "total_recommendations": 5,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 3.09,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 6.01,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T07:00:00.800023",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.49,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 6.46,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 19,
+        "recommendation": "Detectados 19 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T08:00:01.646945",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.49,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 6.46,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 21,
+        "recommendation": "Detectados 21 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 77,
+        "recommendation": "Detectados 77 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T09:00:01.526288",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.49,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 6.46,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 18,
+        "recommendation": "Detectados 18 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 61,
+        "recommendation": "Detectados 61 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T10:00:01.577776",
+    "total_recommendations": 7,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.49,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 6.46,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 23,
+        "recommendation": "Detectados 23 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 73,
+        "recommendation": "Detectados 73 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "82%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T11:00:01.111250",
+    "total_recommendations": 5,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.49,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "underperformer",
+        "model": "qwen/qwen3.6-plus:free",
+        "provider": null,
+        "score": 6.46,
+        "recommendation": "Remover qwen/qwen3.6-plus:free da chain - lat\u00eancia muito alta"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T12:00:00.836008",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.06,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T13:00:00.855905",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.06,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 12,
+        "recommendation": "Detectados 12 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 45,
+        "recommendation": "Detectados 45 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T14:00:00.838470",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.06,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 33,
+        "recommendation": "Detectados 33 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 101,
+        "recommendation": "Detectados 101 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T15:00:01.097321",
+    "total_recommendations": 6,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.06,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "rate_limit",
+        "count": 16,
+        "recommendation": "Detectados 16 rate limits - considerar fallback alternativo"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 51,
+        "recommendation": "Detectados 51 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "84%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T16:00:01.031303",
+    "total_recommendations": 5,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.2,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "api",
+        "type": "errors",
+        "count": 13,
+        "recommendation": "Detectados 13 erros - verificar logs"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  },
+  {
+    "timestamp": "2026-04-05T16:27:54.798639",
+    "total_recommendations": 4,
+    "improvements": [
+      {
+        "category": "model",
+        "type": "best_performer",
+        "model": "hf:MiniMaxAI/MiniMax-M2.5",
+        "provider": null,
+        "score": 2.2,
+        "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+      },
+      {
+        "category": "model",
+        "type": "new_free_models",
+        "count": 349,
+        "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+      },
+      {
+        "category": "system",
+        "type": "disk_space",
+        "usage": "83%",
+        "recommendation": "Limpar logs e backups antigos"
+      },
+      {
+        "category": "config",
+        "type": "hardcoded_key",
+        "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+      }
+    ],
+    "mode": "safe_no_auto_apply",
+    "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+  }
+]

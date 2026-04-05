@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-04-05T16:27:54.798639",
+  "total_recommendations": 4,
+  "improvements": [
+    {
+      "category": "model",
+      "type": "best_performer",
+      "model": "hf:MiniMaxAI/MiniMax-M2.5",
+      "provider": null,
+      "score": 2.2,
+      "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
+    },
+    {
+      "category": "model",
+      "type": "new_free_models",
+      "count": 349,
+      "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+    },
+    {
+      "category": "system",
+      "type": "disk_space",
+      "usage": "83%",
+      "recommendation": "Limpar logs e backups antigos"
+    },
+    {
+      "category": "config",
+      "type": "hardcoded_key",
+      "recommendation": "\u26a0\ufe0f API key hardcoded - mover para api_key_env"
+    }
+  ],
+  "mode": "safe_no_auto_apply",
+  "note": "Este script N\u00c3O aplica mudan\u00e7as automaticamente. Reveja as recomenda\u00e7\u00f5es."
+}
