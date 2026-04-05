@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-04-05T16:27:54.798639",
-  "total_recommendations": 4,
+  "timestamp": "2026-04-05T19:00:01.278039",
+  "total_recommendations": 5,
   "improvements": [
     {
       "category": "model",
       "type": "best_performer",
       "model": "hf:MiniMaxAI/MiniMax-M2.5",
       "provider": null,
-      "score": 2.2,
+      "score": 2.05,
       "recommendation": "Considere usar hf:MiniMaxAI/MiniMax-M2.5 como fallback principal"
     },
     {
@@ -15,6 +15,12 @@
       "type": "new_free_models",
       "count": 349,
       "recommendation": "349 modelos free dispon\u00edveis no OpenRouter"
+    },
+    {
+      "category": "api",
+      "type": "errors",
+      "count": 14,
+      "recommendation": "Detectados 14 erros - verificar logs"
     },
     {
       "category": "system",

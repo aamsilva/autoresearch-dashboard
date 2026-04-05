@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-04-05T19:20:00",
+  "source": "OpenRouter web research",
+  "findings": [
+    {
+      "model": "Qwen: Qwen3.6 Plus (free)",
+      "provider": "OpenRouter",
+      "price": "FREE",
+      "context": "4.37M tokens",
+      "released": "2026",
+      "status": "current"
+    },
+    {
+      "model": "Xiaomi MiMo-V2-Flash",
+      "provider": "OpenRouter",
+      "price": "FREE",
+      "context": "131K-256K",
+      "released": "Mar 2026",
+      "notes": "309B MoE, #1 on SWE-bench",
+      "status": "top_performer"
+    },
+    {
+      "model": "Devstral 2",
+      "provider": "Mistral",
+      "price": "FREE",
+      "context": "131K-256K",
+      "released": "2026",
+      "notes": "123B coding specialist",
+      "status": "recommended"
+    },
+    {
+      "model": "NVIDIA Nemotron 3 Nano",
+      "provider": "NVIDIA",
+      "price": "FREE",
+      "context": "131K-256K",
+      "released": "2026",
+      "notes": "30B MoE for agents",
+      "status": "recommended"
+    },
+    {
+      "model": "DeepSeek V3.1 Nex-N1",
+      "provider": "DeepSeek",
+      "price": "FREE",
+      "context": "131K-256K",
+      "released": "2026",
+      "notes": "Optimized for tool use",
+      "status": "recommended"
+    },
+    {
+      "model": "Google Gemma 4 31B",
+      "provider": "Google",
+      "price": "$0.14/M",
+      "context": "262K",
+      "released": "Apr 2, 2026",
+      "notes": "Coding strong"
+    }
+  ],
+  "total_free_models": "631+ text models available"
+}

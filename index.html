@@ -95,6 +95,8 @@
         .recommendation.critical { border-left-color: #ef4444; }
         .recommendation.warning { border-left-color: #f59e0b; }
         .recommendation.success { border-left-color: #10b981; }
+        .recommendation.highlight { border-left-color: #00d4ff; }
+        .tag { background: #333; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; }
         .recommendation .category {
             font-size: 0.75rem;
             text-transform: uppercase;
@@ -190,6 +192,13 @@
     </div>
 
     <div class="section">
+        <h2>🌐 Pesquisa Web Proativa - Novos Modelos</h2>
+        <div id="webDiscoveries">
+            <div style="color: #666;">A carregar descobertas...</div>
+        </div>
+    </div>
+
+    <div class="section">
         <h2>🤖 Melhores Modelos (por latência)</h2>
         <table id="bestModelsTable">
             <thead>
@@ -225,6 +234,7 @@
                 renderRecommendations(latest);
                 renderCharts(history);
                 updateBestModels();
+                renderWebDiscoveries();
             } catch(e) {
                 console.error('Erro ao carregar dados:', e);
                 document.getElementById('recommendations').innerHTML = 
@@ -334,6 +344,28 @@
                 <tr><td class="model-tag">qwen/qwen3.6-plus:free</td><td>openrouter</td><td class="status-warn">3.5s</td><td class="status-ok">✓ Ativo</td></tr>
                 <tr><td class="model-tag">meta-llama/llama-3.1-8b-instant</td><td>openrouter</td><td class="status-ok">0.17s</td><td class="status-ok">✓ Fast</td></tr>
             `;
+        }
+
+        async function renderWebDiscoveries() {
+            try {
+                const resp = await fetch('data/web_research_discoveries.json');
+                const data = await resp.json();
+                
+                const container = document.getElementById('webDiscoveries');
+                container.innerHTML = data.findings.map(f => `
+                    <div class="recommendation ${f.status === 'current' ? 'success' : f.status === 'top_performer' ? 'highlight' : ''}">
+                        <div style="display:flex; justify-content:space-between; align-items:center;">
+                            <strong>${f.model}</strong>
+                            <span class="tag">${f.price}</span>
+                        </div>
+                        <div style="font-size:0.85rem; color:#888; margin-top:5px;">
+                            ${f.provider} • ${f.context} • ${f.notes || ''}
+                        </div>
+                    </div>
+                `).join('');
+            } catch(e) {
+                document.getElementById('webDiscoveries').innerHTML = '<div style="color:#666">Erro ao carregar descobertas</div>';
+            }
         }
 
         // Auto-refresh
